@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		17E7B6732029BA1100CB71A5 /* FolderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E7B6722029BA1100CB71A5 /* FolderViewModel.swift */; };
+		6B6A97DFD6544B8DF27EF39C /* Pods_RecordingsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDFB0B6707409AAE0E18049 /* Pods_RecordingsTests.framework */; };
 		830C5ACE1F011A7E004EFBA7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C5ACD1F011A7E004EFBA7 /* Coordinator.swift */; };
 		835F5B741F39C581006B1400 /* empty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 835F5B731F39C269006B1400 /* empty.m4a */; };
 		8379F0CD1F2F197500CDB032 /* FolderViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379F0CC1F2F197500CDB032 /* FolderViewControllerTests.swift */; };
 		C90B60971EC00343008C9347 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90B60961EC00343008C9347 /* Store.swift */; };
-		C911ECB8208FF82900FCB89E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E89B381FCBC4AD00527150 /* RxCocoa.framework */; };
-		C911ECB9208FF82900FCB89E /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E89B361FCBC4AC00527150 /* RxDataSources.framework */; };
-		C911ECBA208FF82900FCB89E /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E89B501FCBC67100527150 /* Differentiator.framework */; };
-		C911ECBB208FF82900FCB89E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E89B371FCBC4AC00527150 /* RxSwift.framework */; };
 		C9CFB02E1EC085CF004529FC /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFB02D1EC085CF004529FC /* Recorder.swift */; };
 		C9CFB0301EC08ACF004529FC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFB02F1EC08ACF004529FC /* Utilities.swift */; };
 		C9CFB0321EC08D7E004529FC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFB0311EC08D7E004529FC /* Player.swift */; };
@@ -23,10 +20,6 @@
 		C9CFB0371EC0945B004529FC /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFB0361EC0945B004529FC /* Recording.swift */; };
 		C9CFB0391EC09464004529FC /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFB0381EC09464004529FC /* Folder.swift */; };
 		C9D1859C1EC02D830028C0FA /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1859B1EC02D830028C0FA /* RecordViewController.swift */; };
-		C9E89B391FCBC4AD00527150 /* RxDataSources.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9E89B361FCBC4AC00527150 /* RxDataSources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C9E89B3A1FCBC4AD00527150 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9E89B371FCBC4AC00527150 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C9E89B3B1FCBC4AD00527150 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9E89B381FCBC4AD00527150 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C9E89B511FCBC67100527150 /* Differentiator.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9E89B501FCBC67100527150 /* Differentiator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C9EB56C11EAE33C1000EC5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EB56C01EAE33C1000EC5F4 /* AppDelegate.swift */; };
 		C9EB56C31EAE33C1000EC5F4 /* FolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EB56C21EAE33C1000EC5F4 /* FolderViewController.swift */; };
 		C9EB56C51EAE33C1000EC5F4 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EB56C41EAE33C1000EC5F4 /* PlayViewController.swift */; };
@@ -36,6 +29,7 @@
 		C9F90CDB1FD4E4A30054FEF4 /* Item+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F90CDA1FD4E4A30054FEF4 /* Item+Rx.swift */; };
 		C9F90CDF1FD500A80054FEF4 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F90CDE1FD500A80054FEF4 /* PlayViewModel.swift */; };
 		C9F90CE11FD500B50054FEF4 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F90CE01FD500B50054FEF4 /* RecordViewModel.swift */; };
+		DBA591681E470DB2BD765FAA /* Pods_Recordings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE662375FB05454C38F2FA28 /* Pods_Recordings.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,22 +49,22 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C9E89B391FCBC4AD00527150 /* RxDataSources.framework in CopyFiles */,
-				C9E89B3A1FCBC4AD00527150 /* RxSwift.framework in CopyFiles */,
-				C9E89B3B1FCBC4AD00527150 /* RxCocoa.framework in CopyFiles */,
-				C9E89B511FCBC67100527150 /* Differentiator.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01801C43194D3FA4E9CBEA06 /* Pods-RecordingsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordingsTests.debug.xcconfig"; path = "Target Support Files/Pods-RecordingsTests/Pods-RecordingsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DDFB0B6707409AAE0E18049 /* Pods_RecordingsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordingsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E7B6722029BA1100CB71A5 /* FolderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderViewModel.swift; sourceTree = "<group>"; };
+		5C768246E1D9093E400FDC2B /* Pods-RecordingsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordingsTests.release.xcconfig"; path = "Target Support Files/Pods-RecordingsTests/Pods-RecordingsTests.release.xcconfig"; sourceTree = "<group>"; };
 		830C5ACD1F011A7E004EFBA7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		835F5B731F39C269006B1400 /* empty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = empty.m4a; sourceTree = "<group>"; };
 		8379F0C21F2F193F00CDB032 /* RecordingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8379F0C61F2F193F00CDB032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8379F0CC1F2F197500CDB032 /* FolderViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderViewControllerTests.swift; sourceTree = "<group>"; };
+		AE662375FB05454C38F2FA28 /* Pods_Recordings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recordings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90B60961EC00343008C9347 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		C9CFB02D1EC085CF004529FC /* Recorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
 		C9CFB02F1EC08ACF004529FC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -84,10 +78,6 @@
 		C9E89B2F1FCBC49800527150 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		C9E89B301FCBC49800527150 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		C9E89B311FCBC49800527150 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		C9E89B361FCBC4AC00527150 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
-		C9E89B371FCBC4AC00527150 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		C9E89B381FCBC4AD00527150 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		C9E89B501FCBC67100527150 /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
 		C9EB56BD1EAE33C1000EC5F4 /* Recordings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recordings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EB56C01EAE33C1000EC5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9EB56C21EAE33C1000EC5F4 /* FolderViewController.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = FolderViewController.swift; sourceTree = "<group>"; tabWidth = 3; usesTabs = 1; };
@@ -99,6 +89,8 @@
 		C9F90CDA1FD4E4A30054FEF4 /* Item+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Rx.swift"; sourceTree = "<group>"; };
 		C9F90CDE1FD500A80054FEF4 /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
 		C9F90CE01FD500B50054FEF4 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		D1AF4051297E8F332BDDCF03 /* Pods-Recordings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recordings.release.xcconfig"; path = "Target Support Files/Pods-Recordings/Pods-Recordings.release.xcconfig"; sourceTree = "<group>"; };
+		F0061FD1335E8BA0799972D8 /* Pods-Recordings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recordings.debug.xcconfig"; path = "Target Support Files/Pods-Recordings/Pods-Recordings.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C911ECB8208FF82900FCB89E /* RxCocoa.framework in Frameworks */,
-				C911ECB9208FF82900FCB89E /* RxDataSources.framework in Frameworks */,
-				C911ECBA208FF82900FCB89E /* Differentiator.framework in Frameworks */,
-				C911ECBB208FF82900FCB89E /* RxSwift.framework in Frameworks */,
+				6B6A97DFD6544B8DF27EF39C /* Pods_RecordingsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA591681E470DB2BD765FAA /* Pods_Recordings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +131,21 @@
 				C9E89B301FCBC49800527150 /* RxSwift.framework */,
 				C9E89B2B1FCBBC2500527150 /* RxSwift.framework */,
 				C9E89B2D1FCBBC2C00527150 /* RxCocoa.framework */,
+				AE662375FB05454C38F2FA28 /* Pods_Recordings.framework */,
+				0DDFB0B6707409AAE0E18049 /* Pods_RecordingsTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84AB918F3A8A4BAD693125BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0061FD1335E8BA0799972D8 /* Pods-Recordings.debug.xcconfig */,
+				D1AF4051297E8F332BDDCF03 /* Pods-Recordings.release.xcconfig */,
+				01801C43194D3FA4E9CBEA06 /* Pods-RecordingsTests.debug.xcconfig */,
+				5C768246E1D9093E400FDC2B /* Pods-RecordingsTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		C9CFB02C1EC085B2004529FC /* Helpers */ = {
@@ -185,14 +188,11 @@
 		C9EB56B41EAE33C1000EC5F4 = {
 			isa = PBXGroup;
 			children = (
-				C9E89B381FCBC4AD00527150 /* RxCocoa.framework */,
-				C9E89B361FCBC4AC00527150 /* RxDataSources.framework */,
-				C9E89B501FCBC67100527150 /* Differentiator.framework */,
-				C9E89B371FCBC4AC00527150 /* RxSwift.framework */,
 				C9EB56BF1EAE33C1000EC5F4 /* Recordings */,
 				8379F0C31F2F193F00CDB032 /* RecordingsTests */,
 				C9EB56BE1EAE33C1000EC5F4 /* Products */,
 				83AEA62C1F7A46280006D1FA /* Frameworks */,
+				84AB918F3A8A4BAD693125BC /* Pods */,
 			);
 			indentWidth = 3;
 			sourceTree = "<group>";
@@ -229,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8379F0CB1F2F193F00CDB032 /* Build configuration list for PBXNativeTarget "RecordingsTests" */;
 			buildPhases = (
+				D937E6EBFACF1D46AD72164E /* [CP] Check Pods Manifest.lock */,
 				8379F0BE1F2F193F00CDB032 /* Sources */,
 				8379F0BF1F2F193F00CDB032 /* Frameworks */,
 				8379F0C01F2F193F00CDB032 /* Resources */,
@@ -247,10 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9EB56D11EAE33C1000EC5F4 /* Build configuration list for PBXNativeTarget "Recordings" */;
 			buildPhases = (
+				E4974D46B7B59F23E814E23D /* [CP] Check Pods Manifest.lock */,
 				C9EB56B91EAE33C1000EC5F4 /* Sources */,
 				C9EB56BA1EAE33C1000EC5F4 /* Frameworks */,
 				C9EB56BB1EAE33C1000EC5F4 /* Resources */,
 				C9E89B351FCBC4A200527150 /* CopyFiles */,
+				81A51939286B6B77363291FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -320,6 +324,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81A51939286B6B77363291FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Recordings/Pods-Recordings-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Recordings/Pods-Recordings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D937E6EBFACF1D46AD72164E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecordingsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4974D46B7B59F23E814E23D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Recordings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8379F0BE1F2F193F00CDB032 /* Sources */ = {
@@ -385,6 +464,7 @@
 /* Begin XCBuildConfiguration section */
 		8379F0C91F2F193F00CDB032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01801C43194D3FA4E9CBEA06 /* Pods-RecordingsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -409,6 +489,7 @@
 		};
 		8379F0CA1F2F193F00CDB032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C768246E1D9093E400FDC2B /* Pods-RecordingsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -544,6 +625,7 @@
 		};
 		C9EB56D21EAE33C1000EC5F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0061FD1335E8BA0799972D8 /* Pods-Recordings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -561,6 +643,7 @@
 		};
 		C9EB56D31EAE33C1000EC5F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1AF4051297E8F332BDDCF03 /* Pods-Recordings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
